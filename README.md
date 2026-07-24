@@ -1,24 +1,34 @@
-## Software Quality Engineering for Apache Commons Codec
+# Software Quality Engineering for Apache Commons Codec
 
-Conducted comprehensive software quality analysis on the Apache Commons Codec open-source library by evaluating unit tests, improving code coverage, and validating edge-case behavior using JUnit.
+This repository demonstrates modern software quality engineering practices using the Apache Commons Codec open-source library. The project focuses on improving software reliability through automated testing, code coverage analysis, CI/CD pipelines, and containerized build environments.
 
-### Key Contributions
+## Highlights
 
-- Performed code coverage analysis to identify untested code paths and quality gaps.
-- Designed and implemented additional JUnit test cases for edge cases and boundary conditions.
-- Improved overall test coverage and validated software reliability.
-- Automated build and test execution using GitHub Actions CI/CD workflows.
-- Containerized the testing environment using Docker to ensure consistent and reproducible builds.
-- Generated code coverage reports to evaluate testing effectiveness.
-- Documented testing strategy, coverage improvements, and quality recommendations.
+- Developed additional JUnit test cases for boundary and edge-case validation.
+- Performed code coverage analysis using JaCoCo.
+- Automated build, testing, and verification with GitHub Actions.
+- Containerized the project using Docker for reproducible environments.
+- Integrated continuous integration workflows for automated quality assurance.
+- Analyzed software reliability through structured testing and coverage reports.
 
-### Technologies
+## Technologies
 
 - Java
-- JUnit
 - Maven
-- GitHub Actions
+- JUnit 5
+- JaCoCo
 - Docker
+- GitHub Actions
 - CI/CD
-- Code Coverage
-- Software Testing
+- Git
+
+## Repository Structure
+
+```
+src/
+src/test/
+.github/workflows/
+Dockerfile
+pom.xml
+README.md
+```
